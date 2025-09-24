@@ -60,9 +60,9 @@ The `pipeline.StepContext` type provides a `Status` method which can be used to 
 
 #### Usage
 
-The api [NewStage(name string, concurrent bool, disableStrictMode bool)](https://godoc.org/github.com/go-pipeline/pipeline#NewStage) is used to stage work either sequentially or concurrently. In terms of the pipeline package, a unit of work is an interface: [Step](https://godoc.org/github.com/go-pipeline/pipeline#Step). 
+The api [NewStage(name string, concurrent bool, disableStrictMode bool)](https://godoc.org/github.com/mukangt/go-pipeline#NewStage) is used to stage work either sequentially or concurrently. In terms of the pipeline package, a unit of work is an interface: [Step](https://godoc.org/github.com/mukangt/go-pipeline#Step). 
 
-The following example shows a sequential stage. For a more complex example, please see: [examples/advanced.go](https://github.com/go-pipeline/pipeline/blob/master/examples/advanced.go)
+The following example shows a sequential stage. For a more complex example, please see: [examples/advanced.go](https://github.com/mukangt/go-pipeline/blob/master/examples/advanced.go)
 
 ```go
 package main
@@ -71,7 +71,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-pipeline/pipeline"
+	"github.com/mukangt/pipeline"
 )
 
 type work struct {
@@ -162,4 +162,4 @@ Check `examples` directory for more.
 
 Output of the above example:
 
-![Example Output](https://github.com/go-pipeline/pipeline/blob/master/images/simple_pipe_out.png?raw=true)
+![Example Output](https://github.com/mukangt/go-pipeline/blob/master/images/simple_pipe_out.png?raw=true)
