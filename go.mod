@@ -1,4 +1,4 @@
-module github.com/go-pipeline/pipeline
+module github.com/mukangt/go-pipeline
 
 go 1.16
 
