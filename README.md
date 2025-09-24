@@ -20,7 +20,7 @@ $ go get github.com/mukangt/go-pipeline
  The package has three building blocks to create workflows : Pipeline, Stage and Step . A pipeline is a collection of stages and a stage is a
  collection of steps. A stage can have either concurrent or sequential steps, while stages are always sequential.
 
-![Pipeline](https://github.com/go-pipeline/pipeline/blob/master/images/pipeline.png?raw=true)
+![Pipeline](https://github.com/mukangt/go-pipeline/blob/master/images/pipeline.png?raw=true)
 
 The step block is where the actual work is done. Stage and pipeline act as flow governors.
 
