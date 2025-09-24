@@ -12,7 +12,7 @@ It's tiny by design and is valuable when used as a glue rather than a container.
 
 #### go get
 ```
-$ go get github.com/go-pipeline/pipeline
+$ go get github.com/mukangt/go-pipeline
 ```
 
 #### Concepts
